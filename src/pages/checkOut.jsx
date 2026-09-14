@@ -8,20 +8,13 @@ import ReservationTimer from "../components/reservationTimer";
 import Loader, { Spinner } from "../components/loader";
 import EmptyState from "../components/emptyState";
 
-const OUTCOMES = [
-	{ value: "success", label: "Approved", hint: "Card is accepted and the order is confirmed" },
-	{ value: "failure", label: "Declined", hint: "Bank rejects the charge and the hold is released" },
-	{ value: "timeout", label: "No response", hint: "Gateway stalls, the hold expires and stock returns" },
-	{ value: "random", label: "Leave it to chance", hint: "70% approved, 20% declined, 10% stalled" },
-];
-
 export default function CheckoutPage() {
 	const navigate = useNavigate();
 	const [searchParams] = useSearchParams();
 
 	const [order, setOrder] = useState(null);
 	const [phase, setPhase] = useState("creating");
-	const [outcome, setOutcome] = useState("success");
+	const outcome = "success";
 	const [result, setResult] = useState(null);
 	const [problem, setProblem] = useState(null);
 	const requestRef = useRef(null);
