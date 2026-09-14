@@ -283,39 +283,6 @@ export default function CheckoutPage() {
 								path can be tested.
 							</p>
 
-							<div className="mt-5 grid gap-2 sm:grid-cols-2">
-								{OUTCOMES.map((option) => {
-									const active = outcome === option.value;
-
-									return (
-										<button
-											key={option.value}
-											onClick={() => setOutcome(option.value)}
-											disabled={phase === "paying"}
-											className={
-												"rounded-xl border p-4 text-left transition-colors " +
-												(active
-													? "border-accent bg-accent/5"
-													: "border-line hover:border-ink/25")
-											}
-										>
-											<span className="flex items-center gap-2 font-semibold">
-												<span
-													className={
-														"grid h-4 w-4 place-items-center rounded-full border " +
-														(active ? "border-accent bg-accent" : "border-line")
-													}
-												>
-													{active && <span className="h-1.5 w-1.5 rounded-full bg-white" />}
-												</span>
-												{option.label}
-											</span>
-											<span className="mt-1 block text-sm text-ink-soft">{option.hint}</span>
-										</button>
-									);
-								})}
-							</div>
-
 							<button
 								onClick={pay}
 								disabled={phase === "paying"}
