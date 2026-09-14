@@ -68,7 +68,7 @@ export default function Header() {
 				</button>
 
 				<Link to="/" className="flex shrink-0 items-center gap-2">
-					<span className="hidden text-[15px] font-semibold sm:inline">
+					<span className="hidden text-[40px] font-bold sm:inline">
 						Buyora
 					</span>
 				</Link>

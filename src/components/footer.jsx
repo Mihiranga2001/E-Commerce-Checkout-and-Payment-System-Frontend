@@ -6,10 +6,7 @@ export default function Footer() {
 			<div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-10 sm:flex-row sm:items-center sm:justify-between lg:px-8">
 				<div>
 					<div className="flex items-center gap-2">
-						<span className="grid h-7 w-7 place-items-center rounded-md bg-ink font-mono text-xs font-semibold text-white">
-							nb
-						</span>
-						<span className="font-semibold">Buyora</span>
+						<span className="font-bold text-2xl">Buyora</span>
 					</div>
 					<p className="mt-2 max-w-sm text-sm text-ink-soft">
 						Stock counts here are live. Whatever is in your cart is only yours once
@@ -38,7 +35,7 @@ export default function Footer() {
 			</div>
 			<div className="border-t border-line">
 				<p className="mx-auto max-w-7xl px-4 py-4 text-xs text-ink-soft lg:px-8">
-					© {new Date().getFullYear()} iComputers. All rights reserved.
+					© {new Date().getFullYear()} Buyora. All rights reserved.
 				</p>
 			</div>
 		</footer>
