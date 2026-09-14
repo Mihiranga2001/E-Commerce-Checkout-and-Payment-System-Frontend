@@ -74,7 +74,7 @@ export default function RegisterPage() {
 							<input
 								value={firstName}
 								onChange={(e) => setFirstName(e.target.value)}
-								placeholder="Ada"
+								placeholder="firstname"
 								className="mt-1.5 w-full rounded-lg border border-line bg-surface px-3.5 py-2.5 font-normal outline-none focus:border-accent"
 							/>
 						</label>
@@ -83,7 +83,7 @@ export default function RegisterPage() {
 							<input
 								value={lastName}
 								onChange={(e) => setLastName(e.target.value)}
-								placeholder="Perera"
+								placeholder="lastname"
 								className="mt-1.5 w-full rounded-lg border border-line bg-surface px-3.5 py-2.5 font-normal outline-none focus:border-accent"
 							/>
 						</label>
