@@ -46,10 +46,7 @@ export default function RegisterPage() {
 		<div className="grid min-h-screen lg:grid-cols-2">
 			<div className="hidden flex-col justify-between bg-ink p-12 text-white lg:flex">
 				<Link to="/" className="flex items-center gap-2">
-					<span className="grid h-8 w-8 place-items-center rounded-md bg-white font-mono text-sm font-semibold text-ink">
-						nb
-					</span>
-					<span className="font-semibold">Northbay Components</span>
+					<span className="font-bold text-4xl">Buyora</span>
 				</Link>
 
 				<div className="max-w-md">
@@ -61,10 +58,6 @@ export default function RegisterPage() {
 						and the same on every device you sign in from.
 					</p>
 				</div>
-
-				<p className="font-mono text-xs text-white/50">
-					Demo store for the Techloom.ai assessment
-				</p>
 			</div>
 
 			<div className="flex items-center justify-center p-6 sm:p-12">
