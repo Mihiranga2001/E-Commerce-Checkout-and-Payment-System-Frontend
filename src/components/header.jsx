@@ -68,11 +68,8 @@ export default function Header() {
 				</button>
 
 				<Link to="/" className="flex shrink-0 items-center gap-2">
-					<span className="grid h-8 w-8 place-items-center rounded-md bg-ink font-mono text-sm font-semibold text-white">
-						nb
-					</span>
 					<span className="hidden text-[15px] font-semibold sm:inline">
-						Northbay Components
+						Buyora
 					</span>
 				</Link>
 
