@@ -58,6 +58,9 @@ export default function RegisterPage() {
 						and the same on every device you sign in from.
 					</p>
 				</div>
+				<p className="font-mono text-xs text-white/50">
+					&copy; {new Date().getFullYear()} Buyora
+				</p>
 			</div>
 
 			<div className="flex items-center justify-center p-6 sm:p-12">

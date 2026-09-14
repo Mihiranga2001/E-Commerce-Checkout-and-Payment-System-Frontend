@@ -54,12 +54,16 @@ export default function LoginPage() {
 						every order from payment to refund.
 					</p>
 				</div>
+
+				<p className="font-mono text-xs text-white/50">
+					&copy; {new Date().getFullYear()} Buyora
+				</p>
 			</div>
 
 			<div className="flex items-center justify-center p-6 sm:p-12">
 				<div className="w-full max-w-sm">
 					<Link to="/" className="mb-8 flex items-center gap-2 lg:hidden">
-						<span className="font-bold text-2xl">Buyora</span>
+						<span className="font-semibold">Buyora</span>
 					</Link>
 
 					<h1 className="text-3xl">Sign in</h1>
